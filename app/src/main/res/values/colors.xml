@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#245DB2</color>
+    <color name="colorPrimaryDark">#245DB2</color>
+    <color name="colorAccent">#245DB2</color>
+    <color name="textboxColor">#7AFFFFFF</color>
+
+    <!-- Primary color for the editor -->
+    <color name="editorColorPrimary">#2D3640</color>
+
+    <!-- Primary dark color for the editor -->
+    <color name="editorColorPrimaryDark">#394450</color>
+
+    <color name="errorText">#F50057</color>
+
+</resources>

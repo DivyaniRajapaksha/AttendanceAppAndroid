@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_InsDash"
+            android:icon="@drawable/ic_dashboardins"
+            android:title="@string/dashboard"
+            />
+        <item
+            android:id="@+id/nav_ClassesIns"
+            android:icon="@drawable/ic_class_ins"
+            android:title="@string/student_Manager" />
+        <item
+            android:id="@+id/nav_StaffManageIns"
+            android:icon="@drawable/ic_staffins"
+            android:title="@string/staff_managerNav"
+           />
+        <item
+            android:id="@+id/nav_InsProfile"
+            android:icon="@drawable/ic_insacc"
+            android:title="@string/institute_profileInsNAv" />
+
+
+    </group>
+
+    <item
+        android:id="@+id/ProfileDetailsInsNav"
+        android:title="@string/action_settings">
+        <menu>
+
+
+            <item
+                android:id="@+id/nav_LogOtIns"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/log_out" />
+
+        </menu>
+
+
+
+
+
+
+
+    </item>
+
+</menu>

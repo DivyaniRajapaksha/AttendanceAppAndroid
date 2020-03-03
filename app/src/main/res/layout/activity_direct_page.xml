@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DirectPage"
+    android:background="@drawable/mark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/login12" />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/institute"
+                android:background="@drawable/button_rounded"
+                android:textColor="#FFFFFF"
+                android:id="@+id/instituteDirect"
+               />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_rounded"
+                android:onClick="btn_Studentr"
+                android:text="@string/student"
+                android:textColor="#FFFFFF" />
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/teacher"
+                android:background="@drawable/button_rounded"
+                android:textColor="#FFFFFF"
+                android:onClick="btn_teacher"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

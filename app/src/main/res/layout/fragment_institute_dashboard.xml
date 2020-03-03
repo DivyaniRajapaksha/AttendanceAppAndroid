@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstituteDashboardFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".InstituteManage_Nav"
+        tools:showIn="@layout/app_bar_institute_manage__nav"
+        android:background="@drawable/mark">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+        <Button
+
+            android:id="@+id/Cclass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/create_classesIns"
+            android:textColor="#FFFFFF" />
+
+
+        <Button
+
+            android:id="@+id/AddTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_rounded"
+
+            android:text="@string/add_class_managersIns"
+            android:textColor="#FFFFFF" />
+        <Button
+
+            android:id="@+id/RegStd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="@string/register_studentsIns"
+            android:textColor="#FFFFFF" />
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        tools:context=".AddStudent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="283dp"
+            android:layout_height="277dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:alpha="0.8"
+            app:srcCompat="@drawable/ic_school_black_24dp" />
+
+
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_subject"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:foreground="@color/textboxColor"
+                            android:hint="Enter Subject...."
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/txt_grade"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="20dp"
+                            android:foreground="@color/textboxColor"
+                            android:hint="Enter Grade...."
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="378dp">
+
+                        <Button
+                            android:id="@+id/button6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+
+                            android:layout_marginTop="55dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="8dp"
+                            android:gravity="center"
+                            android:background="@drawable/button_rounded"
+                            android:backgroundTint="@color/design_default_color_primary_dark"
+                            android:onClick="addClassInfo"
+                            android:text="@string/sendRewq"
+                            android:textColor="#FFFFFF"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/editText4"
+                            tools:targetApi="lollipop" />
+
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    </LinearLayout></ScrollView>
